@@ -1,5 +1,9 @@
-# Prerequisites
-*.d
+# Prerequisites (Regras de exclusão de arquivos de proteção)
+# Proteção contra distribuição de arquivos de jogo
+*.iso
+*.bin
+*.elf
+*.prx
 
 # Compiled Object files
 *.slo
@@ -22,7 +26,6 @@
 *.dylib
 *.dll
 *.so.*
-
 
 # Fortran module files
 *.mod
@@ -67,3 +70,9 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
